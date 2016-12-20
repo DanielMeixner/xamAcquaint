@@ -36,7 +36,7 @@
 										</Image.GestureRecognizers>
 									</Image>
 									<StackLayout Spacing="0">
-										<Label Text="{Binding Acquaintance.Street}" FontSize="Micro" LineBreakMode="TailTruncation" />
+                 	<Label Text="{Binding Acquaintance.Street}" FontSize="Micro" LineBreakMode="TailTruncation" />
 										<Label Text="{Binding Acquaintance.City}" FontSize="Micro" LineBreakMode="TailTruncation" />
 										<Label Text="{Binding Acquaintance.StatePostal}" FontSize="Micro" LineBreakMode="TailTruncation" />
 									</StackLayout>

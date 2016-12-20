@@ -15,6 +15,14 @@ namespace Acquaint.XForms
 {
 	public class AcquaintanceDetailViewModel : BaseNavigationViewModel
     {
+
+        public void OnSmsButtonClicked(object sender, EventArgs e)
+        {
+            int i = 12;
+
+        }
+
+
 		public AcquaintanceDetailViewModel(Acquaintance acquaintance)
 		{
 			_CapabilityService = DependencyService.Get<ICapabilityService>();
